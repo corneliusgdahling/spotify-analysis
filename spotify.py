@@ -47,7 +47,7 @@ def list_songs_played():
     tuple_list.sort(reverse=True, key=lambda x: x[1])
 
     print(line)
-    print("| %6s | %60s | %60s | Percentage |" % ("Index", "Song  name", "Number of streams (last 3 months)"))
+    print("| %6s | %60s | %60s | Percentage |" % ("Index", "Song  name", "Number of streams since 26.05.2018"))
     print(line_with_pipes)
     counter = 1
     for key, value in tuple_list:
